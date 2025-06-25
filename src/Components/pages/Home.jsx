@@ -20,7 +20,7 @@ const Home = () => {
           transition={{ duration: 1 }}
       >
       <h1>Experience the Future</h1>
-      <p>Unlock the power of AI, automation, and intelligent design <br /> <br /> all in one seamless platform hello</p>
+      <p>Unlock the power of AI, automation, and intelligent design <br /> <br /> all in one seamless platform buddy</p>
       <button onClick={gotoService} className='btn'>Get into the Future</button>
       </motion.div>
     </div>
