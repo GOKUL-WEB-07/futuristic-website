@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.text{
+    text-align: center;
+    padding-top: 70px;
+}
+.text h1{
+    color: purple;
+    font-size: 60px;
+    padding-bottom: 20px;
+    -webkit-text-stroke: 1px #fff;
+    text-shadow: 0 0 10px rgb(247, 0, 255), 0 0 20px rgb(247, 0, 255)
+}
+.text p{
+    color: white;
+    padding-bottom: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    width: 100%;
+    height: calc(100vh - 50px);
+    padding: 0px 30px;
+    background-image: url('../../assets/Images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+.btn{
+    padding: 10px 20px;
+    font-weight: 800;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: purple;
+    color: white;
+}
+
+@media only screen and (max-width: 900px){
+    .text{
+        padding-top: 150px;
+    }
+    .text h1{
+        font-size: 4rem;
+        padding-bottom: 25px;
+    }
+    .text p{
+        font-size: 1.3rem;
+    }
+    .banner{
+        width: 100%;
+    }
+    .btn{
+        padding: 15px 40px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .text{
+        padding-top: 150px;
+
+    }
+    .text h1{
+        font-size: 2rem;
+        padding-bottom: 25px;
+    }
+    .text p{
+        font-size: 0.7rem;
+    }
+    .banner{
+        width: 100%;
+    }
+    .btn{
+        padding: 10px 30px;
+    }
+}
